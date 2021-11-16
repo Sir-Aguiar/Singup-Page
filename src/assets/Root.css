@@ -1,0 +1,78 @@
+.input_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input_area input {
+  font-size: .92em;
+}
+
+.userN_div {
+  height: 2.3em;
+  display: flex;
+}
+
+.userN_div input {
+  margin-top: 5px;
+}
+
+.userE_div {
+  display: flex;
+}
+
+.userN_inputs {
+  width: 13.6em;
+  height: 1.8em;
+  outline: none;
+  margin: 0px 5px;
+}
+
+.userE_inputs {
+
+  width: 17em;
+  margin: 5px;
+  outline: none;
+  height: 1.8em;
+}
+
+
+.userTel_inputs {
+  width: 10em;
+  outline: none;
+  height: 1.8em;
+  margin: 5px;
+}
+
+.profilePic {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+
+}
+
+input[type='submit'] {
+  width: 26.4em;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: #0489C1;
+  color: #efefef;
+  border-radius: 2px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input[type='submit']:hover {
+  background-color: #0373a3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 26.4em;
+  height: 19em;
+  padding: 5px;
+}
