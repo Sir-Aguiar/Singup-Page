@@ -21,7 +21,7 @@ export default function Root() {
           <input type='tel' className='userTel_inputs'  placeholder = 'Enter your tel.number' />
         </div>
         <div>
-          <input type='submit' value='Enviar' />
+          <input type='submit' value='Cadastrar' />
         </div>
       </div>
 
